@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: right;
+}
+
+
+li {
+    float: left;
+}
+
+form{
+    float: left;
+    border: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a {
+    background-color: #111;
+}	
+.connect 
+{
+    border-style: solid;
+    border-width: medium;
+    width: 230px;
+    height: 170px;
+    float: right;
+    position: relative;
+}
+h3 {
+text-align:center;
+}
+
+hr{
+    width: 80%
+}
+.github 
+{
+    height: 70px;
+    width:70px;
+}
+.stackoverflow
+{
+    height: 70px;
+    width:70px;
+}
+.linkedin
+{
+    height: 70px;
+    width:70px;
+}
+footer{
+text-align: center;
+position: fixed;
+width: 100%
+bottom: 0;
+
+}
