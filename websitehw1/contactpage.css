@@ -1,27 +1,31 @@
+
+body html{
+        
+        background-color: #cccccc;
+        width: 960px;}
+h1{
+        background-color: #4aaaa5;
+        color: white;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 10px;
+        float: left;
+        width: 15%;
+        margin: 0px 0px 40px 30px;
+        z-index: 3;
+    }
+body{
+
+        background-image: url(imageshw1/pattern1.png);
+    }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
     float: right;
-    clear: left;
+    
 }
-
-
-li {
-    float: left;
-}
-
-form{
-    float: left;
-    border: 10px;
-    padding: 20px;
-    border-style: solid;
-    margin: 50px 50px 60px 50px; 
-    clear: right;
-}
-
 li a {
     display: block;
     color: white;
@@ -31,16 +35,34 @@ li a {
     background-color: black;
 
 }
+li {
+    float: left;}
+
+input{
+    width: 600px}
+
+
+
+form {
+        float: left;
+       width:650px;
+       border-color: #dddddd;
+       border-style: solid;
+        margin: 20px 0px 20px 20px;
+        padding: 14px;
+}
+
+
 
 .connect 
 {
     border-style: solid;
     border-width: medium;
-    width: 230px;
-    height: 170px;
+    width:270px;
+    height: 10px;
     float: right;
     margin: 50px 50px 30px 50px;
-    clear: right;
+    border-color: #cccccc;
    
 }
 h3 {
@@ -52,18 +74,18 @@ hr{
 }
 .github 
 {
-    height: 70px;
-    width:70px;
+    height: 80px;
+    width:80px;
 }
 .stackoverflow
 {
-    height: 70px;
-    width:70px;
+    height: 80px;
+    width:80px;
 }
 .linkedin
 {
-    height: 70px;
-    width:70px;
+    height: 80px;
+    width:80px;
 }
 footer
 {
@@ -76,6 +98,7 @@ z-index: 2;
 right: 0;
 left: 0;
 overflow: auto;
+background-color: #666666;
 }
 
 

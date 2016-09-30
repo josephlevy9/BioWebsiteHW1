@@ -1,25 +1,120 @@
+	ul li a .floats {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
+	h1 h2 h3 {
+		font-family: 'Georgia', Times, Times New Roman, serif;}
+	
+
+	h1{
+		margin-top: 0px;
+		background-color: #4aaaa5;
+		color: white;
+		border-style: solid;
+		border-color: #4aaaa5;
+		float: left;
+		z-index: 4;
+	}
+	h2{
+		color: #4aaaa5;
+	}
+
+	body html{
+ 		
+ 		width: 960px;
+ 	
+
+     
+	}
+body{
+
+	background-image: url(imageshw1/pattern1.png);
+	}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    float: right;
 }
 
+ 
+}
+li {
+    float: right;
+    clear: right;
+    clear: left;
+}
 li a {
+
+
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #111;
+    background-color: white;
+
 
   }
-li {
-    float: left;
-}
+
+
+
+
+ 
+  .left1
+  {
+  	   background-color: #ffffff;
+  	   float: left;
+       width:650px;
+       border-color: #dddddd;
+       border-style: solid;
+        
 
 	
-  .aboutme
-  {float: left;}
+}
+img
+	{float: left;
+	overflow: auto;}
+
+  .right1
+  {float:right;
+    background-color: #ffffff;
+    float: right;
+    width:270px;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 20px;
+    color:#777777;
+   
+}
+
+
+
+  
+
+.github 
+{
+    height: 80px;
+    width:80px;
+}
+.stackoverflow
+{
+    height: 80px;
+    width:80px;
+}
+.linkedin
+{
+    height: 80px;
+    width:80px;
+}
+
+footer
+{
+text-align: center;
+position: absolute;
+width: 100%
+top:4000px;
+bottom: 0;
+z-index: 2;
+right: 0;
+left: 0;
+overflow: auto;
+background-color: #666666;
+}
